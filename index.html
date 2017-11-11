@@ -1,0 +1,1152 @@
+<!doctype html>
+<html>
+    <head>
+        <!-- Website by www.parkercode.com -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <!-- Page title -->
+        <title>Midnight Ride</title>
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,400italic,700italic|Raleway:300,500,800|Source+Sans+Pro:100,300,400,600,700,900|Permanent+Marker|Pacifico" rel="stylesheet" type="text/css" />
+        <!-- Styles -->
+        <link rel="stylesheet" href="css/slides.css" name="main-styles">
+        <!-- favicon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+        <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
+        <link rel="manifest" href="manifest.json">
+        <link rel="mask-icon" href="safari-pinned-tab.svg" color="#000000">
+        <meta name="theme-color" content="#000">
+        <!-- Scripts -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script src="js/plugins.js" type="text/javascript" name="plugins"></script>
+        <script src="js/slides.js" type="text/javascript" name="main-scripts"></script>        
+    </head>
+    <body class="slides simplifiedMobile defaultScroll whiteSlide animated">
+
+<!-- SVG Library -->
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+  
+  <symbol id="close" viewBox="0 0 30 30"><path d="M15 0c-8.3 0-15 6.7-15 15s6.7 15 15 15 15-6.7 15-15-6.7-15-15-15zm5.7 19.3c.4.4.4 1 0 1.4-.2.2-.4.3-.7.3s-.5-.1-.7-.3l-4.3-4.3-4.3 4.3c-.2.2-.4.3-.7.3s-.5-.1-.7-.3c-.4-.4-.4-1 0-1.4l4.3-4.3-4.3-4.3c-.4-.4-.4-1 0-1.4s1-.4 1.4 0l4.3 4.3 4.3-4.3c.4-.4 1-.4 1.4 0s.4 1 0 1.4l-4.3 4.3 4.3 4.3z"/></symbol>
+  
+  <symbol id="back" viewBox="0 0 20 20"><path d="M2.3 10.7l5 5c.4.4 1 .4 1.4 0s.4-1 0-1.4l-3.3-3.3h11.6c.6 0 1-.4 1-1s-.4-1-1-1h-11.6l3.3-3.3c.4-.4.4-1 0-1.4-.2-.2-.4-.3-.7-.3s-.5.1-.7.3l-5 5c-.2.2-.3.5-.3.7 0 .2.1.5.3.7z"/></symbol>
+  
+  <symbol id="menu" viewBox="0 0 22 22"><path d="M1 5h20c.6 0 1-.4 1-1s-.4-1-1-1h-20c-.6 0-1 .4-1 1s.4 1 1 1zm20 5h-20c-.6 0-1 .4-1 1s.4 1 1 1h20c.6 0 1-.4 1-1s-.4-1-1-1zm0 7h-20c-.6 0-1 .4-1 1s.4 1 1 1h20c.6 0 1-.4 1-1s-.4-1-1-1z"/></symbol>
+  
+  <symbol id="share" viewBox="0 0 22 22"><path d="M21 10c-.6 0-1 .4-1 1v7h-18v-7c0-.6-.4-1-1-1s-1 .4-1 1v7c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2v-7c0-.6-.4-1-1-1zM5.5 7.5c.3 0 .5-.1.7-.3l3.8-3.8v9.6c0 .6.4 1 1 1s1-.4 1-1v-9.6l3.8 3.8c.2.2.5.3.7.3s.5-.1.7-.3c.4-.4.4-1 0-1.4l-5.5-5.5c-.1-.1-.2-.2-.3-.2-.2-.1-.5-.1-.8 0l-.3.2-5.5 5.5c-.4.4-.4 1 0 1.4.2.2.4.3.7.3z"/></symbol>
+  
+  <symbol id="facebook" viewBox="0 0 24 24"><path d="M24 1.3v21.3c0 .7-.6 1.3-1.3 1.3h-6.1v-9.3h3.1l.5-3.6h-3.6v-2.2c0-1.1.3-1.8 1.8-1.8h1.9v-3.2c-.3 0-1.5-.1-2.8-.1-2.8 0-4.7 1.7-4.7 4.8v2.7h-3.1v3.6h3.1v9.2h-11.5c-.7 0-1.3-.6-1.3-1.3v-21.4c0-.7.6-1.3 1.3-1.3h21.3c.8 0 1.4.6 1.4 1.3z"/></symbol>
+   
+  <symbol id="fb-like" viewBox="0 0 20 20"><path d="M0 8v12h5v-12h-5zm2.5 10.8c-.4 0-.8-.3-.8-.8 0-.4.3-.8.8-.8s.8.3.8.8c0 .4-.4.8-.8.8zm3.5-.8h9.5c1.1 0 1.7-1 1.7-1.7 0-.3-.4-1-.4-1 1.4-.3 1.7-1.2 1.7-1.7-.1-.5-.3-.9-.5-1 1-.4 1.5-1.1 1.4-1.9-.1-.8-1-1.5-1-1.5 1-.6.9-1.5.9-1.5-.3-1.3-1.5-1.7-1.7-1.7h-5.6s.3-.5.3-2.4-1.3-3.6-2.6-3.6c0 0-.7.1-1 .3v3.5l-2.7 4.4v9.8z"/></symbol>
+  
+  <symbol id="play" viewBox="0 0 30 30"><path d="M7 30v-30l22 15z"/></symbol>
+  
+  <symbol id="drop-down" viewBox="0 0 16 16"><polyline stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="1,5 8,12 15,5" fill="none"/></symbol>
+  
+  <symbol id="direction-horizontal" viewBox="-2 6 16 16"><path d="M13.7 13.3l-5-5c-.4-.4-1-.4-1.4 0s-.4 1 0 1.4l3.3 3.3h-11.6c-.6 0-1 .4-1 1s.4 1 1 1h11.6l-3.3 3.3c-.4.4-.4 1 0 1.4.2.2.4.3.7.3s.5-.1.7-.3l5-5c.2-.2.3-.5.3-.7s-.1-.5-.3-.7z"/></symbol>
+  
+  <symbol id="direction-vertical" viewBox="-2 6 16 16"><path d="M6.7 21.7l5-5c.4-.4.4-1 0-1.4s-1-.4-1.4 0l-3.3 3.3v-11.6c0-.6-.4-1-1-1s-1 .4-1 1v11.6l-3.3-3.3c-.4-.4-1-.4-1.4 0-.2.2-.3.4-.3.7 0 .3.1.5.3.7l5 5c.2.2.4.3.7.3s.5-.1.7-.3z"/></symbol>
+
+  <symbol id="arrow-left" viewBox="0 0 31 72"><path d="M30 72c-.3 0-.6-.1-.8-.4l-29-34c-.3-.4-.3-.9 0-1.3l29-36c.3-.4 1-.5 1.4-.2.4.3.5 1 .2 1.4l-28.5 35.5 28.5 33.4c.4.4.3 1.1-.1 1.4-.2.1-.5.2-.7.2z"/></symbol>
+  
+  <symbol id="arrow-right" viewBox="0 0 31 72"><path d="M1 0c.3 0 .6.1.8.4l29 34c.3.4.3.9 0 1.3l-29 36c-.3.4-1 .5-1.4.2-.4-.3-.5-1-.2-1.4l28.5-35.5-28.5-33.4c-.4-.4-.3-1.1.1-1.4.2-.1.5-.2.7-.2z"/></symbol>
+  
+  <symbol id="right" viewBox="-2 6 16 16"><path d="M13.7 13.3l-5-5c-.4-.4-1-.4-1.4 0s-.4 1 0 1.4l3.3 3.3h-11.6c-.6 0-1 .4-1 1s.4 1 1 1h11.6l-3.3 3.3c-.4.4-.4 1 0 1.4.2.2.4.3.7.3s.5-.1.7-.3l5-5c.2-.2.3-.5.3-.7s-.1-.5-.3-.7z"/></symbol>
+
+  <symbol id="mail" viewBox="0 0 22 22"><path d="M19.8 2h-17.6c-1.2 0-2.2 1-2.2 2.2v13.5c0 1.3 1 2.3 2.2 2.3h17.5c1.2 0 2.2-1 2.2-2.2v-13.6c.1-1.2-.9-2.2-2.1-2.2zm-17.6 2h17.5c.2 0 .3.1.3.2v.3l-9 6.3-9-6.3v-.3c0-.1.1-.2.2-.2zm17.6 14h-17.6c-.1 0-.2-.1-.2-.2v-10.9l8.1 5.7c.3.2.6.3.9.3.3 0 .6-.1.9-.3l8.1-5.7v10.9c0 .1-.1.2-.2.2z"/></symbol>
+</svg>
+
+<!-- Navigation -->
+<nav class="side">
+  <div class="navigation">
+    <ul></ul>
+  </div>
+</nav>
+
+<!-- Panel top #18 -->
+<nav class="panel small top forceMobileView">
+  <div class="sections desktop">
+    <div class="left"><a href="#home" class="smaller-logo">Midnight Ride</a></div>
+    <div class="right">
+      <ul class="menu uppercase crop small">
+        <li><a href="#about">About</a></li>
+        <li><a href="#media">Video / Photos</a></li>
+        <li><a href="#weddings">Weddings</a></li>
+        <li><a href="#corporate">Corporate Events</a></li>
+        <li><a href="#festivals">City Events / Festivals</a></li>
+        <li><a href="#parties">Private Parties</a></li>
+        <li><a href="#songlist">Songlist</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="https://www.facebook.com/midnightride/" target="_blank"><svg class="facebookIcon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook"></use></svg></a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="sections compact hidden">
+    <div class="left"><a href="#home" class="smaller-logo" style="color: #fff">Midnight Ride</a></div>
+    <div class="right"><span class="button red actionButton sidebarTrigger" data-sidebar-id="1"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu"></use></svg></span></div>
+  </div>
+</nav>
+
+<!-- Sidebar -->
+<nav class="sidebar red" data-sidebar-id="1">
+  <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
+  <div class="content">
+    <a href="#home" class="smaller-logo">Midnight Ride</a>
+    <ul class="mainMenu uppercase">
+      <li><a href="#about">About</a></li>
+        <li><a href="#media">Video / Photos</a></li>
+        <li><a href="#weddings">Weddings</a></li>
+        <li><a href="#corporate">Corporate Events</a></li>
+        <li><a href="#festivals">City Events / Festivals</a></li>
+        <li><a href="#parties">Private Parties</a></li>
+        <li><a href="#songlist">Songlist</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    <ul class="social">
+      <li><a href="https://www.facebook.com/midnightride" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook"></use></svg></a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Slide #78 -->
+<section class="slide video fade-4" name="home">
+  <div class="content">
+    <div class="container">
+      <div class="wrap">
+        <div class="fix-10-12">
+          <div class="h1 ae-1 black textRed" style="opacity:.9"><h1>Midnight Ride</h1></div>
+          <div class="ae-2">
+            <p class="hero smaller-mobile-text textWhite permanentMarker">Southern California’s <span class="textRed">Most Diverse</span> Wedding and Events Band</p>
+          </div>
+        </div>
+          
+      </div>
+    </div>
+  </div>
+    <div class="background" style="background-image:url('assets/vid/playing2.gif');">
+    <video poster="assets/vid/playing2.jpg" autoplay loop muted>
+      <source src="assets/vid/playing2.mp4" type="video/mp4">
+      <source src="assets/vid/playing2.webm" type="video/webm">
+    </video>
+  </div>
+</section>
+
+<!-- Slide #25 -->
+<section class="slide fade-7 kenBurns" name="about">
+  <div class="content">
+    <div class="container">
+      <div class="wrap">
+        <div class="fix-10-12">
+          <h1 class="huge ae-1 fromCenter black textRed">About the band</h1>
+        </div> 
+        <div class="fix-12-12"> 
+          <ul class="grid">
+            <li class="col-6-12 left ae-5 fromLeft">
+              <p style="text-indent: 50px" class="smaller-mobile-text-2"><b>Midnight Ride</b> was formed in November, 2009 and has rocked over 550 shows across 11 different counties since. This is a 5-piece Rock/Top 40 cover band that will leave you begging for more. Each talented member has years of stage experience. Drummer <b>Scott</b> and Bassist/Vocalist <b>Shawn</b> keep the Midnight Ride engine running strong and groovy, while Guitarist <b>Joel</b> unleashes beefy chords and tasty solos and keyboardist <b>Nikhil</b> layers on the funky sounds and delectable melodies. If that wasn’t enough, we add in the powerful and versatile lead vocalist, <b>Megan</b>, showing off her powerful range and commanding the crowd with her soulful vocals and high energy.</p>
+            </li>
+            <li class="col-6-12 left ae-6 fromLeft">
+              <p style="text-indent: 50px" class="smaller-mobile-text-2">With this band you get top notch musicianship, sweet harmonies, memorable tunes, and most importantly these musicians play to entertain and make sure all in attendance has a great time. We play everything from clubs and casinos to private parties and large concerts Don’t miss out on hiring Midnight Ride today! Contact us for our reasonable rates or any questions.</p>
+              <b class="smaller-logo textRed">Rock On!</b>
+            </li>
+          </ul>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  <div class="background" style="background-image:url(assets/img/MR1.jpg)"></div>
+</section>
+
+<!-- Slide #60 -->
+<section class="slide fade kenBurns" name="media">
+  <div class="content">
+    <div class="container">
+      <div class="wrap">     
+        <div class="fix-12-12">
+          <ul class="grid">
+            <li class="col-6-12 left cell-33">
+              <h1 class="small ae-2 fromLeft black textRed" style="text-align: center;">Video / Photos</h1>
+              <div class="ae-2 fromLeft"><p class="smaller-mobile-text-2">Rock out to our taped session demo, or check out some of our band photos.</p></div>
+            </li>
+            <li class="col-6-12 left ae-4 fromCenter">
+              <ul class="slider" data-slider-id="60-3">
+                <li class="selected">
+                  <ul class="grid">
+                    <li class="col-11-12 toRight">
+                      <div class="popupTrigger videoThumbnail" data-popup-id="60-1">
+                        <img class="wide" src="assets/vid/playing2.jpg" alt="Video Thumbnail"/>
+                      </div>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="fix-8-12">
+          <h1 class="small ae-1 fromLeft header-89"></h1>
+          <div class="ae-2">
+            <div class="relative">
+              <!-- arrows -->
+              <div class="leftControl " data-slider-id="customHeight" data-slider-action="prev">
+                <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow-left"></use></svg>
+              </div>
+              <div class="rightControl " data-slider-id="customHeight" data-slider-action="next">
+                <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow-right"></use></svg>
+              </div>
+              
+              <!-- slider -->
+              <ul class="slider autoHeight clickable " data-slider-id="customHeight" style="height: 488px;">
+                <li class="selected"><img src="assets/img/MR2.jpg" class="wide" alt="Image"></li>
+                <li class=""><img src="assets/img/MR_4piece1.jpg" class="wide" alt="Image"></li>
+                <li class=""><img src="assets/img/MR_Shawn1.jpg" class="wide" alt="Image"></li>
+                <li class=""><img src="assets/img/MR_Joel1.jpg" class="wide" alt="Image"></li>
+                <li class=""><img src="assets/img/MR_Scott1.jpg" class="wide" alt="Image"></li>
+                <li class=""><img src="assets/img/MR_Megan1.jpg" class="wide" alt="Image"></li>
+                <li class=""><img src="assets/img/MR_Nik.jpg" class="wide" alt="Image"></li>
+              </ul>
+            </div>
+            
+            <!-- controller -->
+            <ul class="controller dots big space " data-slider-id="customHeight">
+              <li class="dot selected"></li>
+              <li class="dot"></li>
+              <li class="dot"></li>
+              <li class="dot"></li>
+              <li class="dot"></li>
+              <li class="dot"></li>
+              <li class="dot"></li>
+            </ul>
+            </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  <div class="background"></div>
+</section>
+
+
+<!-- Popup Video -->
+<div class="popup autoplay" data-popup-id="60-1">
+  <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
+  <div class="content">
+    <div class="container">
+      <div class="wrap">
+        <div class="fix-10-12">
+          <div class="embedVideo popupContent">
+            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ilQ-CjVKgXI?rel=0" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section class="slide fade-7 kenBurns" name="weddings">
+  <div class="content">
+    <div class="container">
+      <div class="wrap">
+      
+        <div class="fix-10-12">
+          <h1 class="huge ae-1 black textRed">Weddings</h1>
+          <div class="ae-2"><p class="smaller-mobile-text-2">Midnight Ride is available for your special day. We can customize our extensive song list to fit your wedding. We have fantastic rates for our 5 piece line-up. Please review our FAQ section for answers to questions you will have.</p></div>
+          <a class="button black textRed ae-5 fromCenter cropBottom popupTrigger" data-popup-id="weddingFAQ">Weddings FAQ</a>
+        </div>
+      
+      </div>
+    </div>
+  </div>
+  <div class="background" style="background-image:url(assets/img/wedding2.jpg)"></div>
+</section>
+
+<div class="popup animated" data-popup-id="weddingFAQ">
+  <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
+  <div class="content">
+    <div class="container">
+      <div class="wrap spaces">
+        <div class="fix-12-12 box-55 popupContent">
+          <h1 class="small ae-1 smaller-logo">Wedding FAQ</h1>
+          <div class="pad shadow ae-3">
+            <div class="wide center">
+            <div class="ae-2 textRed"><p><b>How much do you charge for weddings?</b></p></div>
+              <p class="smaller-mobile-text-2" style="text-align: left; text-indent: 30px;">We have 3 great packages to choose from, which will surely meet your wedding budget. Our most popular is the Silver and Gold packages:<br>
+
+• Gold Package= $2400. This package includes 4 sets of live music for your reception. Midnight Ride will learn up to 2 special songs for you, if not already on our current song list. We will MC your wedding and ensure that all of your special events are announced.
+<br>
+• Silver Package = $1800. This package includes 3 sets of live music for your reception. Midnight Ride will learn up to 2 special songs for you, if not already on our current song list. We will MC your wedding and ensure that all of your special events are announced.
+<br>
+• Bronze Package = $1200. This is our base package for those on a very strict budget. This includes 2 sets of live music for your reception. Midnight Ride will learn up to 1 songs, if not on our current song list. We will MC your wedding and ensure that all of your special events are announced.</p>
+
+<div class="ae-2 textRed"><p><b>Can Midnight Ride provide a “Master of Ceremonies” (M.C., Emcee)?</b></p></div>
+<p class="smaller-mobile-text-2" style="text-align: left; text-indent: 30px;">Sure! Our band leader, Shawn, can ensure that all of your special announcements and activities are communicated throughout, keeping your special day moving along seamlessly. We just ask that you provide us with your event’s details and times beforehand. M.C. duties are included at no extra charge. </p>
+
+<div class="ae-2 textRed"><p><b>How will Midnight Ride participate in the timeline of our event?</b></p></div>
+<p class="smaller-mobile-text-2" style="text-align: left; text-indent: 30px;">We advise that you provide us with a detailed timeline of your wedding. This timeline should include the timing of toasts, the first dance and other special dances, cake-cutting, any announcements, surprises, or whatever else you would want us to be aware of. Also, please provide the names of people in the wedding party (bride, groom, etc.) and any other significant contacts such as wedding planners or catering managers. We can also accept the timeline developed by your wedding planner. In the final 7-10 days before your event, we integrate the timeline information with your song selections and our best repertoire of music. This way, everyone is in agreement about what will happen when. Of course, changes occur during the event itself, and we can easily adapt to those changes.</p>
+
+<div class="ae-2 textRed"><p><b>When do you arrive for set-up?</b></p></div>
+<p class="smaller-mobile-text-2" style="text-align: left; text-indent: 30px;">We typically arrive at least 90 minutes before guests arrive. If you have any special requests on our arrival time, we will try to accommodate you and your guests.</p>
+
+<div class="ae-2 textRed"><p><b>What if I want the band to play overtime?</b></p></div>
+<p class="smaller-mobile-text-2" style="text-align: left; text-indent: 30px;">We are frequently asked to play longer at events, as we have such a great song list. If you decide that you want the band to play beyond the contracted time, just let us know by the last contracted set of the event. You will be asked to sign an overtime authorization and to pay for overtime immediately after the event. Midnight Ride’s overtime rate is set at $500 per half hour.</p>
+
+<div class="ae-2 textRed"><p><b>Once I decide that I’d like Midnight Ride to perform at my wedding, how long should I wait before I book the band?  </b></p></div>
+<p class="smaller-mobile-text-2" style="text-align: left; text-indent: 30px;">The sooner the better. We frequently get multiple requests for the same date and sometimes we book out a year or more. Also, some band members have solo “original music” and attempt to coordinate their other events around Midnight Rides’ schedule. Your earliest booking greatly reduces scheduling conflicts and makes it much more likely that all of our regular, “first call” band members will be available for your event.</p>
+
+<div class="ae-2 textRed"><p><b>Can Midnight Ride provide musicians to play jazz/pop/standards during the cocktail hour?  </b></p></div>
+<p class="smaller-mobile-text-2" style="text-align: left; text-indent: 30px;">Yes, we can provide an acoustic line-up of the band to play standards for background music for your guests. We can provide acoustic guitar and female vocals. This would be an additional fee of $450 and the set would be for between 30-60 minutes. </p>
+
+<div class="ae-2 textRed"><p><b>Is there a deposit required to book Midnight Ride and reserve our date? </b></p></div>
+<p class="smaller-mobile-text-2" style="text-align: left; text-indent: 30px;">Yes, in order to reserve your date, we do require a $750 deposit. Once the contract is sent and signed by both parties, the deposit is dues within 24 hours (payable via cashier’s check/money order/Venmo). The deposit is non-refundable unless agreed upon by both parties or if Midnight Ride needs to cancel for any unforeseen circumstances (we’ve never cancelled!). </p>
+
+<div class="ae-2 textRed"><p><b>Can I give the band the final payment the day of the event? </b></p></div>
+<p class="smaller-mobile-text-2" style="text-align: left; text-indent: 30px;">Yes, the final payment is due on the day of the event. You may want to have a designated bill payer during the event, as you probably don’t have time to be scrambling about to pay us when you have dozens of other more important things to worry about. You may also pay in full any time before the date. </p>
+
+<div class="ae-2 textRed"><p><b>How many songs does the band play during the reception and can I customize from your song list?</b></p></div>
+<p class="smaller-mobile-text-2" style="text-align: left; text-indent: 30px;">Depending on the package that you choose, we will play between 2-4 sets with each set being approximately 13 songs. You will receive an updated copy of our song list and are encouraged to not only select songs from this list, but also select songs that you DO NOT want us to play. With over 500 shows performed, we know how to keep the dancing going so please allow us some creative freedom to fill in your song selections with others that are guaranteed crowd pleasers!  </p>
+
+<div class="ae-2 textRed"><p><b>How long are sets and breaks?</b></p></div>
+<p class="smaller-mobile-text-2" style="text-align: left; text-indent: 30px;">Sets are usually 45 minutes with a 15 minute break in between. We are not strict about this as some events are planned with alternative break placement and lengths. Very frequently dinner delays or other unforeseen circumstances result in taking only 2 breaks, one of which is longer. We often end the event with a longer music set if it helps keep the party rolling.  </p>
+
+<div class="ae-2 textRed"><p><b>Will the band bring an iPod or device to play recorded music during the band breaks?  </b></p></div>
+<p class="smaller-mobile-text-2" style="text-align: left; text-indent: 30px;">Yes. The band will bring an iPod/device to play recorded music. Or better yet, if you provide a customized playlist for us on your devise, even better! You may also want to consider scheduling toasts during band breaks.</p>
+
+<div class="ae-2 textRed"><p><b>What if I need to change the performance times that are on my contract?  </b></p></div>
+<p class="smaller-mobile-text-2" style="text-align: left; text-indent: 30px;">Please let us know immediately so we can inform all of the musicians. This will avoid any possible scheduling conflicts. We request that no event start times be changed within the last 2 weeks prior to your event. Delays in our start time requested by the client at the event (i.e. ceremony or photo shoot runs late) does not alter our end time without incurring overtime payment.</p>
+
+<div class="ae-2 textRed"><p><b>What equipment do your band provide?</b></p></div>
+<p class="smaller-mobile-text-2" style="text-align: left; text-indent: 30px;">We provide everything except lighting and a stage. We have a great PA system that includes a Presonus 16 channel digital mixer and, depending on the venue size, up to 3 Peavey Dark Matter 15” mains and an 18” Peavey Dark Matter subwoofer. We provide all microphones/cables/stands and instruments. </p>
+
+<div class="ae-2 textRed"><p><b>Can our guests use your microphone for special announcements/toasts?</b></p></div>
+<p class="smaller-mobile-text-2" style="text-align: left; text-indent: 30px;">Yes! We have at least one wireless microphone that your guests can use upon request.</p>
+
+<div class="ae-2 textRed"><p><b>How do you accept payment? </b></p></div>
+<p class="smaller-mobile-text-2" style="text-align: left; text-indent: 30px;">We accept cashier’s checks, money orders, cash and Venmo (that’s right Midnight Ride is on Venmo!) </p>
+
+<div class="ae-2 textRed"><p><b>Is tipping the band appropriate?  </b></p></div>
+<p class="smaller-mobile-text-2" style="text-align: left; text-indent: 30px;">Tips are not solicited or expected but are certainly appreciated! </p>
+
+<div class="ae-2 textRed"><p><b>But what if the band doesn’t show up?</b></p></div>
+<p class="smaller-mobile-text-2" style="text-align: left; text-indent: 30px;">In the 8 year existence of Midnight Ride this has NEVER HAPPENED. We take great pride in our reputation as professionals and we are obligated to perform by contract. </p>
+
+
+<div class="ae-2 textRed"><p><b>What happens if one of the band members gets sick or is unable to perform?</b></p></div>
+<p class="smaller-mobile-text-2" style="text-align: left; text-indent: 30px;">We will replace him or her with a musician of equal ability and professionalism. Since we perform often, we have compiled a list of top singers and musicians who have frequently played with us and know our particular arrangements.  </p>
+
+<div class="ae-2 textRed"><p><b>What will the band wear to my event?</b></p></div>
+<p class="smaller-mobile-text-2" style="text-align: left; text-indent: 30px;">We will discuss your preferences with you. Normally, the male performers will wear button down shirts, ties, vests, dress pants and dress shoes. The female performers will wear a dress. Some corporate events call for a relaxed, casual appearance, although this is still “dressy” rather than “grungy”. We will try to accommodate you in any way we can.</p>
+
+<div class="ae-2 textRed"><p><b>What are the band’s power requirements?</b></p></div>
+<p class="smaller-mobile-text-2" style="text-align: left; text-indent: 30px;">It is best if the band has easy access to two 20-amp dedicated circuits. In the past, we have run off a single, larger power generator for some of our concert in the park and other outdoor events. Unfortunately, the band does not provide a generator. </p>
+
+<div class="ae-2 textRed"><p><b>How much room does the band need?</b></p></div>
+<p class="smaller-mobile-text-2" style="text-align: left; text-indent: 30px;">Ideally, the minimum stage is 10’ x 16’ to allow for maximum freedom of movement in singer’s dance steps and other performance routines. Stages are ideally 12-18” high or higher. This provides excellent visual sightlines as well as optimal sound projection of all frequencies across a crowded dance floor. However, shorter stages are also acceptable. In fact, we frequently play in rooms that do not have a stage at all, and the reported experience is very good for all guests. The band does not provide stages. </p>
+
+<div class="ae-2 textRed"><p><b>Do I need to provide meals for the band?</b></p></div>
+<p class="smaller-mobile-text-2" style="text-align: left; text-indent: 30px;">This will be indicated on your contract. It really is good relations to provide meals to band members whose driving, set-up, playing, teardown, and drive back time may easily exceed 10 hours. Our experience has been that most clients appreciate all of our pre-event efforts that they often regard us as friends before we play the first note! So they often want to give us the "guest meal," which we prefer. However, we recognize the validity of budget concerns, and we gladly accept the less expensive "vendor meals" that many venues can provide.</p>
+
+<div class="ae-2 textRed"><p><b>Does the band bring their own lighting or umbrella?</b></p></div>
+<p class="smaller-mobile-text-2" style="text-align: left; text-indent: 30px;">No. You will be required to provide adequate lighting an umbrella for the band (especially if we perform outdoors. Additionally, please provide heaters for the band if necessary. Keep in mind, if your guest are cold, your band is also cold. Frozen fingers and frozen vocal cords are no bueno! </p>
+
+<div class="ae-2 textRed"><p><b>Will the band learn any songs that are not on their current song list?</b></p></div>
+<p class="smaller-mobile-text-2" style="text-align: left; text-indent: 30px;">We can learn up to 2 songs per event if it’s not already on our extensive song list. If you have any special request, please let us know AT LEAST four weeks PRIOR to your event. Please provide us with the audio file if it’s not a popular song. Also, some weddings that we’ve performed requested that we learned just a part of a song and then medley/segway into another song that is on our list. If you have that type of request, please let us know asap. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section class="slide fade-7 kenBurns" name="corporate">
+  <div class="content">
+    <div class="container">
+      <div class="wrap">
+      
+        <div class="fix-10-12">
+          <h1 class="huge ae-1 black textRed">Corporate Events</h1>
+          <div class="ae-2"><p class="smaller-mobile-text-2">Midnight Ride is available for your company event. We will bring the party and have the dance floor packed all night long. You can even customize our extensive song list to fit your event.</p></div>
+        </div>
+      
+      </div>
+    </div>
+  </div>
+  <div class="background" style="background-image:url(assets/img/corporate.jpg)"></div>
+</section>
+
+<section class="slide fade-7 kenBurns" name="festivals">
+  <div class="content">
+    <div class="container">
+      <div class="wrap">
+      
+        <div class="fix-10-12">
+          <h1 class="huge ae-1 black textRed">City Events / Festivals</h1>
+          <div class="ae-2"><p class="smaller-mobile-text-2">Midnight Ride is available for your Summer Concert, Concert in the Park, Car Show, or any other city events that you want a fantastic and experienced cover band. Some of the events we’ve headlined include:</p></div>
+        </div>
+      <ul class="grid later margin-top-5">
+            <li class="col-4-12 left ae-3">
+              <h3 class="ae-4">Pasadena Chalk Festival</h3>
+              <div class="ae-5"><p class="small"> (7 years in a row)</p></div>
+            </li> 
+            <li class="col-4-12 left ae-3">
+              <h3 class="ae-4">Murrieta Summer Concerts</h3>
+              <div class="ae-5"><p class="small"> (2014 and 2017)</p></div>
+            </li> 
+            <li class="col-4-12 left ae-3">
+              <h3 class="ae-4">Lake Elsinore Fourth of July</h3>
+              <div class="ae-5"><p class="small"> (2015, 2015, 2016)</p></div>
+            </li> 
+            <li class="col-4-12 left ae-3">
+              <h3 class="ae-4">Menifee Independence Day Celebration</h3>
+              <div class="ae-5"><p class="small"> (2016)</p></div>
+            </li> 
+            <li class="col-4-12 left ae-3">
+              <h3 class="ae-4">Stroll &amp; Savor</h3>
+              <div class="ae-5"><p class="small"> (2013, 2014, 2015)</p></div>
+            </li> 
+            <li class="col-4-12 left ae-3">
+              <h3 class="ae-4">Fontana Car Show</h3>
+              <div class="ae-5"><p class="small"> (2015)</p></div>
+            </li> 
+            <li class="col-4-12 left ae-3">
+              <h3 class="ae-4">Chula Vista Street Fair</h3>
+              <div class="ae-5"><p class="small"> (2014)</p></div>
+            </li> 
+            <li class="col-4-12 left ae-3">
+              <h3 class="ae-4">Ventura Fair</h3>
+              <div class="ae-5"><p class="small"> (2011)</p></div>
+            </li> 
+            <li class="col-4-12 left ae-3">
+              <h3 class="ae-4">Big Fresno Fair</h3>
+              <div class="ae-5"><p class="small"> (2011)</p></div>
+            </li>
+          </ul>
+      </div>
+    </div>
+  </div>
+  <div class="background" style="background-image:url(assets/img/group-megan.jpg)"></div>
+</section>
+
+<section class="slide fade-7 kenBurns" name="parties">
+  <div class="content">
+    <div class="container">
+      <div class="wrap">
+      
+        <div class="fix-10-12">
+          <h1 class="huge ae-1 black textRed">Private Parties</h1>
+          <div class="ae-2"><p class="smaller-mobile-text-2">Midnight Ride is available for your birthday party, graduation, bar mitzvah, or any other event where you need a diverse cover band to entertain your guests. We have fantastic rates for our 4 piece or 5 piece line-up.</p></div>
+        </div>
+      
+      </div>
+    </div>
+  </div>
+  <div class="background" style="background-image:url(assets/img/party2.jpg)"></div>
+</section>
+
+<!-- Slide #58 -->
+<section class="slide fade-7" name="songlist">
+  <div class="content">
+    <div class="container">
+      <div class="wrap">
+        <div class="fix-10-12 toCenter">
+          <h1 class="small ae-1 black textRed">Songlist</h1>
+        </div>
+        <div class="fix-12-12">
+          <ul class="grid grid-47 later equal">
+            
+<li class="col-4-12  songListsBlock">
+              <div class="fix-4-12 ae-4 ">
+                <h3 class="uppercase" style="text-align: left">Ballads</h3>
+                <ol class="songlist">
+<li>Because You've Loved Me - <span class="pad-artists">Celion Dion</span></li>
+<li>Dream A Little Dream - <span class="pad-artists">Mamas &amp; Papas</span></li>
+<li>Everything I Do (I Do it) - <span class="pad-artists">Bryan Adams</span></li>
+<li>Hopelessly Devoted To - <span class="pad-artists">Olivia Newton J</span></li>
+<li>I Just Called To Say I Lov - <span class="pad-artists">Stevie Wonder</span></li>
+<li>I've Got You Under My Sk - <span class="pad-artists">Frank Sinatra </span></li>
+<li>Kiss From A Rose - <span class="pad-artists">Seal</span></li>
+<li>Marry Me (only gtr/piano) - <span class="pad-artists">Train</span></li>
+<li>New York New York - <span class="pad-artists">Frank Sinatra </span></li>
+<li>Save The Best For Last - <span class="pad-artists">Vanessa Williams</span></li>
+<li>Sittin' On The Dock Of - <span class="pad-artists">Otis Redding</span></li>
+<li>That's Amore - <span class="pad-artists">Dean Martin</span></li>
+<li>Thinking Out Loud - <span class="pad-artists">Ed Sheeran</span></li>
+<li>Time After Time - <span class="pad-artists">Cindi Lauper</span></li>
+<li>What A Wonderful Wo - <span class="pad-artists">Louie Armstrong</span></li>
+<li>You Are So Beautiful - <span class="pad-artists">Joe Cocker</span></li>
+<li>You Are The Sunshine of  - <span class="pad-artists">Stevie Wonder</span></li>
+<li>You're Beautiful - <span class="pad-artists">James Blunt</span></li>
+</ol>
+              </div>
+            </li>
+
+<li class="col-4-12  songListsBlock">
+              <div class="fix-4-12 ae-4 ">
+                <h3 class="uppercase" style="text-align: left">Father/Daughter Dance</h3>
+                <ol class="songlist">
+<li>Can't Take My Eyes - <span class="pad-artists">Frankie Valli</span></li>
+<li>Daughers (only guit) - <span class="pad-artists">John Mayer</span></li>
+<li>God Only Knows - <span class="pad-artists">The Beach Bo</span></li>
+<li>Have I Told You Lat - <span class="pad-artists">Rod Stewart</span></li>
+<li>Here, There, Every - <span class="pad-artists">The Beatles</span></li>
+<li>In My Life - <span class="pad-artists">The Beatles</span></li>
+<li>Isn't She Lovel - <span class="pad-artists">Stevie Wonder</span></li>
+<li>My Girl - <span class="pad-artists">Temptations</span></li>
+<li>My Little Girl - <span class="pad-artists">Tim Mcgraw</span></li>
+<li>Unforgetable - <span class="pad-artists">Nat/Natalie Co</span></li>
+</ol>
+              </div>
+            </li>
+
+<li class="col-4-12  songListsBlock">
+              <div class="fix-4-12 ae-4 ">
+                <h3 class="uppercase" style="text-align: left">1st Dance Songs</h3>
+                <ol class="songlist">
+<li>Always - <span class="pad-artists">Bon Jovi</span></li>
+<li>At Last - <span class="pad-artists">Etta James</span></li>
+<li>Can You Feel The Love - <span class="pad-artists">Elton John</span></li>
+<li>Can't Help Falling In - <span class="pad-artists">Elvis</span></li>
+<li>Endless Love  - <span class="pad-artists">Lionel/Diana Ross</span></li>
+<li>Faithfully - <span class="pad-artists">Journey</span></li>
+<li>I've Had The Time of - <span class="pad-artists">Medley/Warnes</span></li>
+<li>Just The Way You Are - <span class="pad-artists">Bruno Mars</span></li>
+<li>My Best Friend - <span class="pad-artists">Tim Mcgraw</span></li>
+<li>Stay With Me - <span class="pad-artists">Sam Smith</span></li>
+<li>Unchained Melody - <span class="pad-artists">Righteous Bros</span></li>
+<li>Wonderful Tonight - <span class="pad-artists">Eric Clapton</span></li>
+<li>Your Song - <span class="pad-artists">Elton John</span></li>
+</ol>
+              </div>
+            </li>
+
+<li class="col-4-12  songListsBlock">
+              <div class="fix-4-12 ae-4 ">
+                <h3 class="uppercase" style="text-align: left">50s/60s</h3>
+                <ol class="songlist">
+<li>Knock On Wood - <span class="pad-artists">Eddie Floyd</span></li>
+<li>Pretty Woman - <span class="pad-artists">Roy Orbison</span></li>
+<li>I Wanna Hold Your - <span class="pad-artists">The Beatles</span></li>
+<li>Eight Days A Week - <span class="pad-artists">The Beatles</span></li>
+<li>She Love You - <span class="pad-artists">The Beatles</span></li>
+<li>Groovin'  - <span class="pad-artists">The Rascals</span></li>
+<li>I'm A Believer - <span class="pad-artists">The Monkees</span></li>
+<li>Runaround Sue - <span class="pad-artists">Dion</span></li>
+<li>Hey Jude - <span class="pad-artists">The Beatles</span></li>
+<li>All My Loving - <span class="pad-artists">The Beatles</span></li>
+<li>Wooly Bully - <span class="pad-artists">Sam The Sham</span></li>
+<li>It's So Easy - <span class="pad-artists">Buddy Holly</span></li>
+<li>It's Not Unusual - <span class="pad-artists">Tom Jones</span></li>
+<li>Tequila - <span class="pad-artists">The Champs</span></li>
+<li>A Hard Day's Night - <span class="pad-artists">The Beatles</span></li>
+<li>Bad Moon Risin' - <span class="pad-artists">CCR</span></li>
+<li>Brown Eyed Girl - <span class="pad-artists">Van Morrison</span></li>
+<li>Great Balls Of Fire - <span class="pad-artists">Jerry Lee Lewis</span></li>
+<li>Come Together - <span class="pad-artists">The Beatles</span></li>
+<li>Whole Lotta Shakin' Goin - <span class="pad-artists">Jerry Lee Lewis</span></li>
+<li>Gloria - <span class="pad-artists">Them</span></li>
+<li>Honky Tonk Woman  - <span class="pad-artists">The Rolling Sto</span></li>
+<li>House of The Rising - <span class="pad-artists">The Animals</span></li>
+<li>Johnny B Goode - <span class="pad-artists">Chuck Berry</span></li>
+<li>La Bamba/Twist &amp; Shout - <span class="pad-artists">R Valens/Beatles</span></li>
+<li>Mony Mony - <span class="pad-artists">Tommy James</span></li>
+<li>My Generation - <span class="pad-artists">The Who</span></li>
+<li>Proud Mary - <span class="pad-artists">Tina Turner</span></li>
+<li>Rock Around The Clock - <span class="pad-artists">Bill Haley</span></li>
+<li>Sunshine of Your Lov - <span class="pad-artists">Cream</span></li>
+<li>With A Little Help From  - <span class="pad-artists">The Beatles</span></li>
+</ol>
+              </div>
+            </li>
+
+<li class="col-4-12  songListsBlock">
+              <div class="fix-4-12 ae-4 ">
+                <h3 class="uppercase" style="text-align: left">70s</h3>
+                <ol class="songlist">
+<li>American Girl - <span class="pad-artists">Tom Petty</span></li>
+<li>Bang A Gong - <span class="pad-artists">T-Rex</span></li>
+<li>Dreams - <span class="pad-artists">Fleetwood Ma</span></li>
+<li>Escape (Pina Colada) - <span class="pad-artists">Rupert Holmes</span></li>
+<li>Fame - <span class="pad-artists">David Bowie</span></li>
+<li>Feel Like Makin' Lov - <span class="pad-artists">Bad Company</span></li>
+<li>Frankenstein - <span class="pad-artists">Edgar Winter</span></li>
+<li>Have You Ever Seen - <span class="pad-artists">CCR</span></li>
+<li>Hotel California - <span class="pad-artists">The Eagles</span></li>
+<li>Jet Airliner - <span class="pad-artists">Steve Miller</span></li>
+<li>Knockin' On Heaven - <span class="pad-artists">Bob Dylan</span></li>
+<li>La Grange - <span class="pad-artists">ZZ Top</span></li>
+<li>Life In The Fast Lane - <span class="pad-artists">The Eagles</span></li>
+<li>Listen To The Music - <span class="pad-artists">Doobie Bros</span></li>
+<li>Margaritaville - <span class="pad-artists">Jimmy Buffet</span></li>
+<li>Midnight Rider - <span class="pad-artists">The Allman Bros</span></li>
+<li>Moby Dick - <span class="pad-artists">Led Zeppelin</span></li>
+<li>Old Time Rock &amp; Roll - <span class="pad-artists">Bob Seger</span></li>
+<li>Rhiannon - <span class="pad-artists">Fleetwood Mac</span></li>
+<li>Roadhouse Blues - <span class="pad-artists">The Doors</span></li>
+<li>Rock And Roll - <span class="pad-artists">Led Zeppelin</span></li>
+<li>Roxanne - <span class="pad-artists">The Police</span></li>
+<li>Saturday In The Park - <span class="pad-artists">Chicago</span></li>
+<li>Sweet Home Alabama - <span class="pad-artists">Lynyrd Skynrd</span></li>
+<li>The Joker - <span class="pad-artists">Steve Miller</span></li>
+<li>Tiny Dancer - <span class="pad-artists">Elton Joun</span></li>
+<li>Walk On The Wild - <span class="pad-artists">Lou Reed</span></li>
+</ol>
+              </div>
+            </li>
+
+<li class="col-4-12  songListsBlock">
+              <div class="fix-4-12 ae-4 ">
+                <h3 class="uppercase" style="text-align: left">80s</h3>
+                <ol class="songlist">
+<li>Africa - <span class="pad-artists">Toto</span></li>
+<li>Addicted To Love - <span class="pad-artists">Robert Palmer</span></li>
+<li>All Night Long - <span class="pad-artists">Lionel Richie</span></li>
+<li>Billy Jean - <span class="pad-artists">Michael Jackson</span></li>
+<li>Blister In The Sun  - <span class="pad-artists">Violent Femmes</span></li>
+<li>Careless Whisper - <span class="pad-artists">George Michael</span></li>
+<li>Crazy Little Thing Call - <span class="pad-artists">Queen</span></li>
+<li>Crazy Train - <span class="pad-artists">Ozzy Osborne</span></li>
+<li>Don't Stop Believin - <span class="pad-artists">Journey</span></li>
+<li>Eye of Tiger/Edge of S - <span class="pad-artists">Survivor/S Nicks</span></li>
+<li>Fight For Your Right  - <span class="pad-artists">Beastie Boys</span></li>
+<li>Footloose - <span class="pad-artists">Kenny Loggins</span></li>
+<li>Free Fallin' - <span class="pad-artists">Tom Petty</span></li>
+<li>Friday I'm In Love - <span class="pad-artists">The Cure</span></li>
+<li>Girls Just Wanna Have - <span class="pad-artists">Cindi Lauper</span></li>
+<li>Got My Mind Set On Y - <span class="pad-artists">George Harrison</span></li>
+<li>Heart &amp; Soul - <span class="pad-artists">Huey Lewis</span></li>
+<li>Hey Mickey - <span class="pad-artists">Toni Basil</span></li>
+<li>Hit Me With Your Be - <span class="pad-artists">Pat Benetar</span></li>
+<li>I Love Rock &amp; Roll - <span class="pad-artists">Joan Jett</span></li>
+<li>I've Had The Time Of - <span class="pad-artists"></span></li>
+<li>Jessie's Girl - <span class="pad-artists">Rick Springfield</span></li>
+<li>Jump - <span class="pad-artists">Van halen</span></li>
+<li>Legs - <span class="pad-artists">ZZ Top</span></li>
+<li>Livin' On A Prayer - <span class="pad-artists">Bon Jovi</span></li>
+<li>Love Shack - <span class="pad-artists">B-52's</span></li>
+<li>Only The Good Die  - <span class="pad-artists">Billy Joel</span></li>
+<li>Pour Some Sugar On - <span class="pad-artists">Def Leppard</span></li>
+<li>Pride &amp; Joy - <span class="pad-artists">Stevie Ray Vaug</span></li>
+<li>Red Red Wine - <span class="pad-artists">UB40</span></li>
+<li>Rockin' In The Free - <span class="pad-artists">Neil Young</span></li>
+<li>Sharp Dressed Man - <span class="pad-artists">ZZ Top</span></li>
+<li>Stray Cat Strut - <span class="pad-artists">The Stray Cats</span></li>
+<li>Sultans of Swing - <span class="pad-artists">Dire Straits</span></li>
+<li>Summer of '69 - <span class="pad-artists">Bryan Adams</span></li>
+<li>Super Freak - <span class="pad-artists">Rick James</span></li>
+<li>Sweet Child O Mine - <span class="pad-artists">Guns N Roses</span></li>
+<li>Walk of Life - <span class="pad-artists">Dire Straits</span></li>
+<li>What I Like About You - <span class="pad-artists">The Romantics</span></li>
+<li>White Wedding - <span class="pad-artists">Billy Idol</span></li>
+<li>You Shook Me All Nig - <span class="pad-artists">ACDC </span></li>
+<li>You're The Inspiration - <span class="pad-artists">Chicago </span></li>
+<li>Let's Dance - <span class="pad-artists">David Bowie</span></li>
+</ol>
+              </div>
+            </li>
+
+<li class="col-4-12  songListsBlock">
+              <div class="fix-4-12 ae-4 ">
+                <h3 class="uppercase" style="text-align: left">90s</h3>
+                <ol class="songlist">
+<li>Badfish - <span class="pad-artists">Sublime</span></li>
+<li>Can't Get Enough of You - <span class="pad-artists">Smash Mouth</span></li>
+<li>Hard To Handle - <span class="pad-artists">Black Crows</span></li>
+<li>Mary Jane's Last Da - <span class="pad-artists">Tom Petty</span></li>
+<li>Santaria  - <span class="pad-artists">Sublime</span></li>
+<li>Two Princes - <span class="pad-artists">Spin Doctors</span></li>
+<li>Under The Bridge - <span class="pad-artists">Red Hot Chile</span></li>
+<li>Wonderwall - <span class="pad-artists">Oasis</span></li>
+</ol>
+              </div>
+            </li>
+
+<li class="col-4-12  songListsBlock">
+              <div class="fix-4-12 ae-4 ">
+                <h3 class="uppercase" style="text-align: left">2000s/Misc</h3>
+                <ol class="songlist">
+<li>All Summer Long  - <span class="pad-artists">Kid Rock</span></li>
+<li>Bad Romance - <span class="pad-artists">Lady Gaga</span></li>
+<li>California Gurls - <span class="pad-artists">Katy Perry</span></li>
+<li>Can't Feel My Face - <span class="pad-artists">The Weeknd</span></li>
+<li>Can't Stop The Feel - <span class="pad-artists">Justin Timb</span></li>
+<li>Crazy - <span class="pad-artists">Cee Lo Green</span></li>
+<li>Forget You - <span class="pad-artists">Cee Lo Green</span></li>
+<li>Happy - <span class="pad-artists">Pharell</span></li>
+<li>Hey Ya - <span class="pad-artists">Outkast</span></li>
+<li>I Gotta Feeling - <span class="pad-artists">Black Eyed Peas</span></li>
+<li>I Love It - <span class="pad-artists">Icona Pop</span></li>
+<li>I Want It That Way - <span class="pad-artists">The Backstreet Bo</span></li>
+<li>Locked Out Of Heav - <span class="pad-artists">Bruno Mars</span></li>
+<li>Marry You - <span class="pad-artists">Bruno Mars</span></li>
+<li>Moves Like Jagger - <span class="pad-artists">Maroon 5</span></li>
+<li>Party In The U.S.A - <span class="pad-artists">Miley Cyrus</span></li>
+<li>Rock Your Body - <span class="pad-artists">Justin Timb</span></li>
+<li>Sexy Back - <span class="pad-artists">Justin Timberla</span></li>
+<li>Shake It Off - <span class="pad-artists">Taylor Swift</span></li>
+<li>Single Ladies - <span class="pad-artists">Beyonce</span></li>
+<li>Uptown Funk - <span class="pad-artists">Bruno Mars</span></li>
+<li>We are Young - <span class="pad-artists">Fun</span></li>
+<li>We Found Love - <span class="pad-artists">Rihanna</span></li>
+<li>Yellow - <span class="pad-artists">Coldplay</span></li>
+</ol>
+              </div>
+            </li>
+
+<li class="col-4-12  songListsBlock">
+              <div class="fix-4-12 ae-4 ">
+                <h3 class="uppercase" style="text-align: left">Misc</h3>
+                <ol class="songlist">
+<li>I Shot The Sheriff - <span class="pad-artists">Eric Clapton</span></li>
+<li>Jump Jive &amp; Wail - <span class="pad-artists">Brian Setzer</span></li>
+<li>Steamroller Blues - <span class="pad-artists">James Taylor</span></li>
+<li>Sweet Caroline - <span class="pad-artists">Neil Diamond</span></li>
+<li>Three Little Birds - <span class="pad-artists">Bob Marley</span></li>
+<li>Whiskey In The Jar - <span class="pad-artists">Traditional</span></li>
+</ol>
+              </div>
+            </li>
+
+<li class="col-4-12  songListsBlock">
+              <div class="fix-4-12 ae-4 ">
+                <h3 class="uppercase" style="text-align: left">Hip Hop</h3>
+                <ol class="songlist">
+<li>Cupid Shuffle - <span class="pad-artists">Cupid</span></li>
+<li>Hot In Herre - <span class="pad-artists">Nelly</span></li>
+<li>Superbass - <span class="pad-artists">Nicki Minaj</span></li>
+<li>U Can't Touch This - <span class="pad-artists">MC Hammer</span></li>
+<li>Party Rock Anthem - <span class="pad-artists">LMAFO</span></li>
+<li>Ice Ice Baby - <span class="pad-artists">Vanilla Ice</span></li>
+<li>Shots - <span class="pad-artists">LMAFO</span></li>
+</ol>
+              </div>
+            </li>
+
+<li class="col-4-12  songListsBlock">
+              <div class="fix-4-12 ae-4 ">
+                <h3 class="uppercase" style="text-align: left">Country</h3>
+                <ol class="songlist">
+<li>All My Rowdy Friends - <span class="pad-artists">Hank Williams </span></li>
+<li>Before He Cheats - <span class="pad-artists">Carrie Underwood</span></li>
+<li>Boot Scootin' Boogie - <span class="pad-artists">Brooks &amp; Dunn</span></li>
+<li>Chicken Fried - <span class="pad-artists">Zac Brown Band</span></li>
+<li>Country Girl Shake It - <span class="pad-artists">Luke Bryan</span></li>
+<li>Crazy - <span class="pad-artists">Patsy Cline</span></li>
+<li>Folsom Prison  - <span class="pad-artists">Johnny Cash</span></li>
+<li>Friends In Low Places - <span class="pad-artists">Garth Brooks</span></li>
+<li>Honey Bee - <span class="pad-artists">Blake Shelton</span></li>
+<li>Jackson - <span class="pad-artists">Johnny Cash</span></li>
+<li>Life Is A Highway - <span class="pad-artists">Rascal Flatts</span></li>
+<li>Ring of Fire - <span class="pad-artists">Johnny Cash</span></li>
+<li>She's Country - <span class="pad-artists">Jason Aldean</span></li>
+<li>The Fireman - <span class="pad-artists">George Strait</span></li>
+<li>This Kiss - <span class="pad-artists">Faith Hill</span></li>
+<li>Wagon Wheel - <span class="pad-artists">Darius Rucker</span></li>
+<li>Workin' Man Blues  - <span class="pad-artists">Merle Haggard</span></li>
+</ol>
+              </div>
+            </li>
+
+<li class="col-4-12  songListsBlock">
+              <div class="fix-4-12 ae-4 ">
+                <h3 class="uppercase" style="text-align: left">Disco/Funk</h3>
+                <ol class="songlist">
+<li>Boogie Shoes - <span class="pad-artists">KC &amp; Sunshine</span></li>
+<li>Brick House - <span class="pad-artists">Commodors</span></li>
+<li>Celebration - <span class="pad-artists">Kool &amp; The G</span></li>
+<li>Dance To The Music - <span class="pad-artists">Sly &amp; Family Stone</span></li>
+<li>Do You Think I'm Se  - <span class="pad-artists">Rod Stewart</span></li>
+<li>Funky Town - <span class="pad-artists">Lipps Inc</span></li>
+<li>Get Down On It - <span class="pad-artists">Kool &amp; The G</span></li>
+<li>Hot Stuff - <span class="pad-artists">Rod Stewart</span></li>
+<li>Hot Stuff - <span class="pad-artists">Donna Summer</span></li>
+<li>I Feel Good (I Got You) - <span class="pad-artists">James Brown</span></li>
+<li>I Will Survive - <span class="pad-artists">Gloria Gaynor</span></li>
+<li>Jungle Boogie - <span class="pad-artists">Kool &amp; The G</span></li>
+<li>Ladies Night - <span class="pad-artists">Kool &amp; The Gang</span></li>
+<li>Lady Mamalade - <span class="pad-artists">Labelle</span></li>
+<li>Let's Groove - <span class="pad-artists">Earth,Wind,Fir</span></li>
+<li>Play That Funky Music  - <span class="pad-artists">Wild Cherry</span></li>
+<li>September - <span class="pad-artists">Earth,Wind,Fir</span></li>
+<li>Sex Machine - <span class="pad-artists">James Brown</span></li>
+<li>Superstitions - <span class="pad-artists">Stevie Wonder </span></li>
+<li>That's The Way I  - <span class="pad-artists">KC &amp; Sunshine </span></li>
+</ol>
+              </div>
+            </li>
+
+<li class="col-4-12  songListsBlock">
+              <div class="fix-4-12 ae-4 ">
+                <h3 class="uppercase" style="text-align: left">Motown/Soul/R&amp;B</h3>
+                <ol class="songlist">
+<li>Ain't No Sunshine  - <span class="pad-artists">Bill Weaths</span></li>
+<li>Ain't Too Proud To Beg - <span class="pad-artists">The Temptations</span></li>
+<li>Chain Of Fools - <span class="pad-artists">Aretha Franklin</span></li>
+<li>Come And Get Your - <span class="pad-artists">Redbone</span></li>
+<li>Forever - <span class="pad-artists">Chris Brown</span></li>
+<li>How Sweet It Is  - <span class="pad-artists">James Taylor</span></li>
+<li>I Can't Help Myself - <span class="pad-artists">The Four Tops </span></li>
+<li>I Wanna Dance With - <span class="pad-artists">Whitney Houston</span></li>
+<li>Kiss - <span class="pad-artists">Prince</span></li>
+<li>Let's Get It On - <span class="pad-artists">Marvin Gaye</span></li>
+<li>Let's Stay Together - <span class="pad-artists">Al Green</span></li>
+<li>Low Rider - <span class="pad-artists">War</span></li>
+<li>Miss You - <span class="pad-artists">Rolling Stones</span></li>
+<li>Mustang Sally - <span class="pad-artists">Wilson Pickett</span></li>
+<li>Shake Your Body Do - <span class="pad-artists">Michael Jackson</span></li>
+<li>Signed Sealed Delive - <span class="pad-artists">Stevie Wonder</span></li>
+<li>Stand By Me - <span class="pad-artists">Ben E. King</span></li>
+<li>Superfreak - <span class="pad-artists">Rick James</span></li>
+<li>We Are Family - <span class="pad-artists">Sister Sledge</span></li>
+<li>Why Can't We Be - <span class="pad-artists">War</span></li>
+<li>You Make Me Feel - <span class="pad-artists">Aretha Franklin</span></li>
+</ol>
+              </div>
+            </li>
+
+<li class="col-4-12  songListsBlock">
+              <div class="fix-4-12 ae-4 ">
+                <h3 class="uppercase" style="text-align: left">Latin</h3>
+                <ol class="songlist">
+<li>Besame Mucho - <span class="pad-artists">Traditional</span></li>
+<li>Bidi Bidi Bom Bom - <span class="pad-artists">Selena</span></li>
+<li>Black Magic Woman - <span class="pad-artists">Santana</span></li>
+<li>Conga - <span class="pad-artists">Gloria Estefan</span></li>
+<li>Corazon Espinado - <span class="pad-artists">Santana/Mana</span></li>
+<li>Despacito - <span class="pad-artists">Beiber/Fonsi</span></li>
+<li>Evil Ways - <span class="pad-artists">Santana</span></li>
+<li>Fruta Fresca - <span class="pad-artists">Carlos Vives</span></li>
+<li>I Need To Know - <span class="pad-artists">Marc Anthony</span></li>
+<li>La Camisa Negra - <span class="pad-artists">Juanez</span></li>
+<li>Oye Mi Amor - <span class="pad-artists">Mana</span></li>
+<li>Oye Como Va - <span class="pad-artists">Santana</span></li>
+</ol>
+              </div>
+            </li>
+
+<li class="col-4-12  songListsBlock">
+              <div class="fix-4-12 ae-4 ">
+                <h3 class="uppercase" style="text-align: left">Salsa</h3>
+                <ol class="songlist">
+<li>Amores Como El Nuestro - <span class="pad-artists">Jenny Rivera</span></li>
+<li>Tu Amor Me Hace Bien - <span class="pad-artists">Marc Anthony</span></li>
+</ol>
+              </div>
+            </li>
+
+<li class="col-4-12  songListsBlock">
+              <div class="fix-4-12 ae-4 ">
+                <h3 class="uppercase" style="text-align: left">Cumbia</h3>
+                <ol class="songlist">
+<li>La Cumbia Del Mole - <span class="pad-artists">Lila Downs</span></li>
+<li>La Bola Negra - <span class="pad-artists">Los Hermanos Flo</span></li>
+</ol>
+              </div>
+            </li>
+
+<li class="col-4-12  songListsBlock">
+              <div class="fix-4-12 ae-4 ">
+                <h3 class="uppercase" style="text-align: left">Jazz/Standards (Cocktail set)</h3>
+                <ol class="songlist">
+<li>Autumn Leaves - <span class="pad-artists">Traditional</span></li>
+<li>Fly Me To The Moon - <span class="pad-artists">Frank Sinatra </span></li>
+<li>Love Song - <span class="pad-artists">Sara Barellis</span></li>
+<li>Moon River - <span class="pad-artists">Traditional</span></li>
+<li>Route 66 - <span class="pad-artists">Traditional</span></li>
+<li>Smooth Operator - <span class="pad-artists">Sade</span></li>
+<li>Summertime - <span class="pad-artists">Traditional</span></li>
+<li>Moondance - <span class="pad-artists">Van Morrison</span></li>
+</ol>
+              </div>
+            </li>
+
+<li class="col-4-12  songListsBlock">
+              <div class="fix-4-12 ae-4 ">
+                <h3 class="uppercase" style="text-align: left">Medleys</h3>
+                <ol class="songlist">
+<li><span class="pad-artists">Top 40 Medley #1 </span> (24K Magic/Treasure/Get Lucky/Crazy)</li>
+<li><span class="pad-artists">Old School Medley </span> (Baby Got Back/Jump Around/Wild Thing/Push It)</li>
+<li><span class="pad-artists">Dance Medley #1 </span> (This Is How We/Burning Down TheDown The House/Rolling In The Deep/Insane In Brain/My Prerogative)</li>
+<li><span class="pad-artists">Beetlejuice Medley </span> (Day-O/Jump In The Line)</li>
+<li><span class="pad-artists">80's Medley #1 </span> (Shout/Come On Eileen/Stand/Walking On Sunshine/Don't You Forget About/With Or Without You/The Power of Love)</li>
+<li><span class="pad-artists">80's Medley #2 </span> (Just Can't Get Enough/Your Love/You Spin Me Round/Centerfold/Hungry Like The Wolf)</li>
+<li><span class="pad-artists">90's Medley </span> (Waterfalls/California Love/The Sign/Fresh Prince of Bel-Air)</li>
+<li><span class="pad-artists">Doo-Wop Medley </span> (Duke Of Earl/Earth Angel/Teenager In Love/Under The Boardwalk/Lets Go To The Hop)</li>
+<li><span class="pad-artists">Disco Medley </span> (Dancing Queen/You Dropped A Bomb/Stayin' Alive/You Sexy Thing)</li>
+<li><span class="pad-artists">80's TV Theme Medley </span> (Dukes of Hazzard/Cheers/Growing Pains/Golden Girls/Full House)</li>
+<li><span class="pad-artists">Grease Medley </span> (You're The One That I Want/Grease/Summer Nights/Greased Lighting)</li>
+<li><span class="pad-artists">Pink Floyd Medley </span> (Wish You Were Here/Money/Another Brick In The Wall)</li>
+<li><span class="pad-artists">Prince Medley </span> (When Doves Cry/1999/Little Red Corvette/Let's Go Crazy)</li>
+<li><span class="pad-artists">Four Season Medley </span> (Sherry/Walk Like A Man/Big Girls Don't Cry/Working My Way Back To You/Dec '63)</li>
+<li><span class="pad-artists">Elvis Medley </span> (All Shook Up/Jailhouse Rock/Let's Have A Party/Blue Suede Shoes/That's Alright Mama)</li>
+<li><span class="pad-artists">Oldies Medley #1 </span> (Shout/Do You Love Me/Twist Again/Twist)</li>
+<li><span class="pad-artists">Oldies Medley #2 </span> (Rockin' Robin/Build Me Up Buttercup/Mack The Knife)</li>
+<li><span class="pad-artists">60's R&amp;B Medley </span> (Dancing In The Streets/Money That's What I Want/It's My Party/Be My Baby)</li>
+<li><span class="pad-artists">Jackson 5 Medley </span> (ABC/I Want You Back/The Love You Save)</li>
+<li><span class="pad-artists">Michael Jackson Medley </span> (That Way You Make Me Feel/Thriller/Bad/Beat It)</li>
+</ol>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="background" style="background-image:url(assets/img/soundboard-bg2.jpg)"></div>
+</section>
+
+<!-- Slide #89 -->
+<section class="slide fade kenBurns" name="testimonials">
+  <div class="content">
+    <div class="container">
+      <div class="wrap">
+        <div class="fix-12-12">
+          <h1 class="small ae-1 fromLeft header-89 black textRed">Testimonials</h1>
+          <div class="sourceSans clearBoth ae-2 fromRight">
+            <span class="text-89">Here's what our past clients (<a class="popupTrigger" data-popup-id="past-clients">partial list here</a>) had to say about us:</span>
+          </div>
+          <ul class="grid later grid-89 left">
+            <li class="col-6-12 box-89">
+              <div class="quoteBubble ae-4 fromLeft">
+                <p class="cropBottom smaller-mobile-text-2">...Midnight Ride played at our Main Stage during this year's 24th annual Pasadena Chalk Festival which draws about 60,000 people each day during the two day event. Midnight Ride's music is a staple here at Paseo Colorado and during the chalk festival each year... It has been a pleasure to work with Midnight Ride and we absolutely recommend them for future events.</p>
+              </div>
+              <div class="quoteName ae-6 fromRight">Sara Neuman<span class="quoteTitle sourceSans">, Marketing Manager @ Paseo Colorado</span> <a href="assets/img/testimonial1.png"><span class="quoteTitle sourceSans">(link to full letter)</span></a></div>
+   
+            </li>
+            <li class="col-6-12 box-89">
+              <div class="quoteBubble ae-4 fromLeft">
+                <p class="cropBottom smaller-mobile-text-2">Midnight Ride kicked off our 2014 Murrieta Summer Concerts in the Park Series last week. They arrived on time, were very professional, and set up all equipment necessary in a timely fashion ... Their performance was outstanding ... We look forward to working with them again in the future.</p>
+              </div>
+              <div class="quoteName ae-6 fromRight">Laura Frasso<span class="quoteTitle sourceSans">, Special Events Coordinator @ City of Murrieta</span> <a href="assets/img/testimonial2.png"><span class="quoteTitle sourceSans">(link to full letter)</span></a></div>
+      
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="background" style="background-image:url(assets/img/group-bg6.jpg)"></div>
+</section>
+
+<!-- Slide #74 -->
+<section class="slide fade kenBurns" name="members">
+  <div class="content">
+    <div class="container">
+      <div class="wrap">
+      
+        <div class="fix-10-12 toCenter">
+          <h1 class="small ae-1 black textRed">Band Members</h1>
+          <div class="ae-2"><p class="smaller-mobile-text-2">Meet the multi-talented members of Midnight Ride who know how to keep  venues rocking all day and night.</p></div>
+        </div>
+        <div class="fix-12-12">  
+          <ul class="grid grid-74 later equal left">
+            <li class="col-2-12 ae-3 fromCenter">
+              <a class="box-74 popupTrigger" data-popup-id="shawn">
+                <div class="thumbnail-74">
+                  <img src="assets/img/MR_Shawn1.jpg" class="wide" alt="Thumbnail"/>
+                </div>
+                <div class="name-74 equalElement table wide">
+                  <div class="cell">
+                    <div class="smaller-logo">Shawn</div>
+                    <div class="description-74">Bass &amp; Lead Vocals</div>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="col-2-12 ae-4 fromCenter">
+              <a class="box-74 popupTrigger" data-popup-id="joel">
+                <div class="thumbnail-74">
+                  <img src="assets/img/MR_Joel1.jpg" class="wide" alt="Thumbnail"/>
+                </div>
+                <div class="name-74 equalElement table wide">
+                  <div class="cell">
+                    <div class="smaller-logo">Joel</div>
+                    <div class="description-74">Lead Guitar &amp; Vocals</div>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="col-2-12 ae-5 fromCenter">
+              <a class="box-74 popupTrigger" data-popup-id="scott">
+                <div class="thumbnail-74">
+                  <img src="assets/img/MR_Scott1.jpg" class="wide" alt="Thumbnail"/>
+                </div>
+                <div class="name-74 equalElement table wide">
+                  <div class="cell">
+                    <div class="smaller-logo">Scott</div>
+                    <div class="description-74">Drums &amp; Percussion</div>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="col-2-12 ae-5 fromCenter">
+              <a class="box-74 popupTrigger" data-popup-id="megan">
+                <div class="thumbnail-74">
+                  <img src="assets/img/MR_Megan1.jpg" class="wide" alt="Thumbnail"/>
+                </div>
+                <div class="name-74 equalElement table wide">
+                  <div class="cell">
+                    <div class="smaller-logo">Megan</div>
+                    <div class="description-74">Lead Vocals &amp; Percussion</div>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="col-2-12 ae-5 fromCenter">
+              <a class="box-74 popupTrigger" data-popup-id="nikhil">
+                <div class="thumbnail-74">
+                  <img src="assets/img/MR_Nik.jpg" class="wide" alt="Thumbnail"/>
+                </div>
+                <div class="name-74 equalElement table wide">
+                  <div class="cell">
+                    <div class="smaller-logo">Nikhil</div>
+                    <div class="description-74">Keyboards &amp; Vocals</div>
+                  </div>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="background" style="background-image:url(assets/img/MR3.jpg)"></div>
+</section>
+
+<div class="popup animated" data-popup-id="shawn">
+  <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
+  <div class="content">
+    <div class="container">
+      <div class="wrap spaces">
+        <div class="fix-12-12 box-55 popupContent">
+          <h1 class="small ae-1 smaller-logo">Shawn Blakely</h1>
+          <div class="ae-2"><p>Bass &amp; Lead Vocals</p></div>
+          <div class="pad shadow ae-3">
+            <div class="wide center">
+              <p class="smaller-mobile-text-2" style="text-align: left; text-indent: 30px;">Shawn grew up listening to the most fantastic rock music from the 50’s, 60’s, and 70’s.  His dad is a very good singer and helped shape Shawn’s musical upbringing. He picked up guitar at age 17 and earned an associates degree in music from Ventura College. Shawn has been performing in rock cover bands across California since 1999. Shawn formed Midnight Ride in November 2009 with the goal of providing a fantastic rock show where people can 1) have a great time, 2) dance the night away, and 3) be left begging for more. Shawn is the high flying bassist/vocalist and Music Director for Midnight Ride and plays a Fender American Precision and Hamer 5-string basses.</p>
+              <p class="smaller-mobile-text-2" style="text-align: left; text-indent: 30px;">When asked why Midnight Ride stands out from the competition, his response was “Our collective stage experience and musical talent is evident each time we hit the stage, no matter if there is 5 people in attendance or 5,000. We always put on an entertaining and high-flying show that fully rocks audiences all across California!”.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="popup animated" data-popup-id="joel">
+  <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
+  <div class="content">
+    <div class="container">
+      <div class="wrap spaces">
+        <div class="fix-12-12 box-55 popupContent">
+          <h1 class="small ae-1 smaller-logo">Joel Herr</h1>
+          <div class="ae-2"><p>Lead Guitar &amp; Vocals</p></div>
+          <div class="pad shadow ae-3">
+            <div class="wide center">
+              <p class="smaller-mobile-text-2" style="text-align: left; text-indent: 30px;">Joel is a Los Angeles based guitarist and singer-songwriter. He grew up overseas in Hong Kong, and relocated to Los Angeles to study at the Musicians Institute in Hollywood in 2009, and to begin his career in the music industry. For the past 5 years he has performed at countless major performance venues around Southern California, performing with local music acts, musicals, weddings, and other productions. Joel loves playing all the great music that Midnight Ride plays regularly, and he hope his playing gets you on your feet dancing!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="popup animated" data-popup-id="scott">
+  <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
+  <div class="content">
+    <div class="container">
+      <div class="wrap spaces">
+        <div class="fix-12-12 box-55 popupContent">
+          <h1 class="small ae-1 smaller-logo">Scott Gettlin</h1>
+          <div class="ae-2"><p>Drums &amp; Percussion</p></div>
+          <div class="pad shadow ae-3">
+            <div class="wide center">
+              <p class="smaller-mobile-text-2" style="text-align: left; text-indent: 30px;">Drummer, Percussionist And Music Educator Scott Gettlin Is A Highly Trained Musician And Teacher In The Los Angeles Area. Scott Graduated From The Prestigious College-Conservatory Of Music At The University Of Cincinnati.</p>
+              <p class="smaller-mobile-text-2" style="text-align: left; text-indent: 30px;">Graduating As Magnum Cum Laude From CCM's Rigorous Double Degree Program Of Percussion Performance And Music Education, He Received The Presser Scholarship For His Exemplary Teaching Skills As Well As A Talent-Based Scholarship For His Performing Abilities.</p>
+              <p class="smaller-mobile-text-2" style="text-align: left; text-indent: 30px;">Scott's Performance And Recording Experience Includes A Multitude Of Different Genres And Settings, From Rock Bands To Jazz Ensembles, Orchestras To Symphonic Bands And Opera To Musical Theatre. Through His Extensive Training And Performance Experience, Scott Has Developed A Wide Skill Set To Perform The Vast Number Of Genres That Make Up The Modern Music Scene.</p>
+              <p class="smaller-mobile-text-2" style="text-align: left; text-indent: 30px;">Scott Currently Studies With Mark Schulman, Drummer For P!NK, Cher, Billy Idol And Many Others, And Also Takes Coaching From The Pedagogic Drumming Master, Bruce Becker.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="popup animated" data-popup-id="megan">
+  <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
+  <div class="content">
+    <div class="container">
+      <div class="wrap spaces">
+        <div class="fix-12-12 box-55 popupContent">
+          <h1 class="small ae-1 smaller-logo">Megan G Murray</h1>
+          <div class="ae-2"><p>Lead Vocals &amp; Percussion</p></div>
+          <div class="pad shadow ae-3">
+            <div class="wide center">
+              <p class="smaller-mobile-text-2" style="text-align: left; text-indent: 30px;">Megan G Murray is a singer songwriter based in Los Angeles, C.A.  Megan, “like Megan but said with two E’s!” (Is how she helps people pronounce her name), is a free- thinking, music making, soul – searching, child of wild, originally from incredible India!</p>
+              <p class="smaller-mobile-text-2" style="text-align: left; text-indent: 30px;">Megan moved to Los Angeles in 2013 and has never looked back. She studied Voice and Independent Artist Development at the Musicians Institute on Hollywood and graduated with the Student of the Year award. Since then she has recorded as a session’s musician for various artists like New Rock God, Nick Walker, French bassist T-Bow etc. and she has also performed at some prominent venues in and outside California.</p>
+              <p class="smaller-mobile-text-2" style="text-align: left; text-indent: 30px;">Megan has collaborated and been blessed to share stage space with some of India’s eminent musicians such as Merlyn D’souza, Louis Banks, Dominique and Clinton Crejo to name a few. She has also lent her voice to ad jingles for companies such as 7 Up Lemon Lift, Vodafone, Maybelline Baby Lips and Rock Her Deodorants. </p>
+              <p class="smaller-mobile-text-2" style="text-align: left; text-indent: 30px;">In additional for being the charismatic and passionate lead singer for Midnight Ride, Megan currently works as a session’s musician and songwriter.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="popup animated" data-popup-id="nikhil">
+  <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
+  <div class="content">
+    <div class="container">
+      <div class="wrap spaces">
+        <div class="fix-12-12 box-55 popupContent">
+          <h1 class="small ae-1 smaller-logo">Nikhil Koparka</h1>
+          <div class="ae-2"><p>Keyboards &amp; Vocals</p></div>
+          <div class="pad shadow ae-3">
+            <div class="wide center">
+              <p class="smaller-mobile-text-2" style="text-align: left; text-indent: 30px;">Nikhil Koparkar is an LA-based keyboardist, singer and composer for film and games. He has been featured in The Huffington Post, AXS.com and Guitar World, as well as played shows with various original and cover bands around the US and abroad.</p>
+              <p class="smaller-mobile-text-2" style="text-align: left; text-indent: 30px;">He loves long hikes, warm people and cold beer.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section class="slide fade-7 kenBurns" name="contact">
+  <div class="content">
+    <div class="container">
+      <div class="wrap">
+      
+        <div class="fix-10-12">
+          <h1 class="huge ae-1 black textRed">Contact</h1>
+          <div class="ae-2"><p class="smaller-mobile-text-2">For booking inquires, contact Shawn Blakely at <a href="tel:+1-818-621-0693">(818) 621-0693</a> or email us at <a href="mailto:midnightrideband@yahoo.com">midnightrideband @yahoo.com</a></p></div>
+        </div>
+        <div class="fix-12-12 box-57">
+          <ul class="grid fixedSpaces">
+            <li class="col-4-12 ae-5">
+              <h3 class="small uppercase">STAY IN TOUCH</h3>
+              <ul class="social-circles">
+                <li><a class="button roundButton facebook" href="https://www.facebook.com/midnightride" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook"></use></svg></a></li>
+                <li><a class="button roundButton mail" href="mailto:midnightrideband@yahoo.com" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#mail"></use></svg></a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="background black"></div>
+</section>
+
+<!-- Preloader -->
+<div class="loadingIcon"><svg class="loading-icon" id="loading-circle" viewBox="0 0 18 18"><circle class="circle" opacity=".1" stroke="#fff" stroke-width="2" stroke-miterlimit="10" cx="9" cy="9" r="8" fill="none"></circle><circle class="dash" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="1,100" cx="9" cy="9" r="8" fill="none"></circle></svg></div>
+                    
+    </body>
+</html>
