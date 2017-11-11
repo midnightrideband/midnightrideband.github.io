@@ -4436,6 +4436,7 @@ ul.venueList, .venueList li {
 .songListsBlock {
   padding-bottom: 5%;
   font-size: large;
+  padding-left: 10px !important;
 }
 
 @media screen and (max-width:1180px) {
